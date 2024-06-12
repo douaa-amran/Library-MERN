@@ -1,0 +1,41 @@
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-left: 4rem;
+    gap: 0.5rem;
+}
+
+.cart-item img {
+    width:90%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.cart-item .title {
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.cart-item .author {
+    margin-top: -5px;
+    color: gray;
+    font-size: 0.7rem;
+}
+#root > div > div > div > div > div > div > div > table > tbody > tr > td:nth-child(3) > div{
+    margin-left: 50% !important;
+}
+
+#root > div > div > div > div > div > div > div > table > thead > tr > th:nth-child(3){
+    border-bottom-right-radius: 8px;
+}
+
+#root > div > div > div > div > div > div > div > table > thead > tr > th:nth-child(1){
+    border-bottom-left-radius: 8px;
+}
+
+#root > div > div > div.ant-table-wrapper.css-dev-only-do-not-override-1t8vkpl > div > div > ul{
+    display: none;
+}
